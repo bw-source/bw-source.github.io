@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body
+{
+  background: #536d86;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container
+{
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left_side
+{
+  position: relative;
+  background:#866c53;
+  padding: 40px;
+}
+.profileText
+{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.2) ;
+}
+.profileText .imgBx
+{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius:50%;
+  overflow:hidden;
+}
+.profileText .imgBx .img
+{
+  position: absolute;
+  top: 0;
+  Left: 0;
+  width: 100%;
+  border-radius:50%
+  height: auto;
+  object-fit: cover;
+}
+.profileText h2
+{
+  color:#fff;
+  font-size: 1.25em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+.profileText h2 span
+{
+  font-size: 0.8em;
+  font-weight:300;
+}
+.contactinfo
+{
+  padding-top: 40px;
+}
+.title
+{
+color: #fff;
+text-transform: uppercase;
+font-weight: 600;
+letter-spacing: 1px;
+}
+.contactinfo ul
+{
+  position: relative;
+}
+.contactinfo ul li
+{
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.contactinfo ul li .icon
+{
+  display:inline-block;
+  width: 30px;
+  font-size: 18px;
+  color:#03a9f4;
+}
+.contactinfo ul li span
+{
+  color:#fff;
+  font-weight: 300;
+}
+.contactinfo.education li
+{
+  margin-bottom: 15px;
+}
+.contactinfo.education h5
+{
+  color:#03a9f4;
+  font-weight:500;
+  margin-bottom:2px;
+}
+.contactinfo.education h4
+{
+  color:#fff;
+  font-weight:500;
+  margin-bottom: 5px;
+  font-style: italic;
+}
+
+.container .right_side
+{
+  position: relative;
+  background:#fff;
+  padding: 40px;
+}
+.about
+{
+  margin-bottom: 50px;
+}
+.title2
+{
+  text-decoration: underline;
+  margin-bottom: 2px;
+  text-align: left ;
+  text-transform: uppercase;
+}
+.about ul.horizontal-list
+{
+  display: inline-block;
+  min-width: 12rem;
+  padding-left: 40px;
+  padding-top: 10px;
+  margin-top: -40px;
+  margin-bottom: 1px;
+}
+.about .box
+{
+  display: flex;
+  flex-direction:row;
+  margin: 20px 0;
+}
+.about .box .year
+{
+  min-width: 150px;
+}
+.about .box .year h5
+{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.about .box .text h4
+{
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.about .box .text ul li
+{
+  margin: 5px;
+}
